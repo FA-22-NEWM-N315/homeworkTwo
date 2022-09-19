@@ -1,0 +1,1 @@
+import*as MODEL from"./model.js";function initListeners(){$("nav a").click((e=>{e.preventDefault();let t=e.currentTarget.id;MODEL.setCurrentPageContent(t)}))}$(document).ready((function(){initListeners()}));

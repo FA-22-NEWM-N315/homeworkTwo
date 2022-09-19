@@ -1,0 +1,101 @@
+.gallery {
+    .banner3 {
+    height: 200px;
+    min-width: 100%;
+    background-color: bisque;
+    background-image: url(../images/photo-1588290957812-ae74d9e17288.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gal {
+    font-size: 80px;
+    font-family: stintCondensed;
+    color: #ddd;
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+.wrapper1 {
+    position: relative;
+    height: 280px;
+    width: 1000px;
+    // background-color: bisque;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+    .b1 {
+        height: 280px;
+        width: 200px;
+        background-color: blue;
+        background-image: url(../images/a3100798e0b2a048c3142d1c5efc2527.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .b2 {
+        height: 280px;
+        width: 200px;
+        background-color: blue;
+        background-image: url(../images/38f0c33aec59e77bd86e33840e8be979.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .b3 {
+        height: 280px;
+        width: 200px;
+        background-color: blue;
+        background-image: url(../images/painting-portrait-photographer-creative.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.wrapper2 {
+    position: relative;
+    height: 280px;
+    width: 1000px;
+    // background-color: bisque;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+    .b4 {
+        height: 280px;
+        width: 200px;
+        background-color: blue;
+        background-image: url(../images/1b1c337db089bb834c7384fd7a3f5dff.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .b5 {
+        height: 280px;
+        width: 200px;
+        background-color: blue;
+        background-image: url(../images/stock-photo-68743261.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .b6 {
+        height: 280px;
+        width: 200px;
+        background-color: blue;
+        background-image: url(../images/art-artistic-artsy-beautiful.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+}
+

@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: gray;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: stintCondensed;
+  src: url(../css/fonts/StintUltraCondensed-Regular.ttf);
+}
+nav {
+  height: 50px;
+  background-color: #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14px 16px;
+}
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+.home .banner {
+  height: 400px;
+  min-width: 100%;
+  background-image: url(../images/mg-3420.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .header {
+  font-size: 80px;
+  font-family: stintCondensed;
+  color: #ddd;
+  margin-top: -100px;
+}
+.home .wrapper {
+  height: 280px;
+  width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.home .wrapper .box1 {
+  height: 280px;
+  width: 200px;
+  background-color: blue;
+  background-image: url(../images/3242564.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .wrapper .box2 {
+  height: 280px;
+  width: 200px;
+  background-color: blue;
+  background-image: url(../images/782837.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .wrapper .box3 {
+  height: 280px;
+  width: 200px;
+  background-color: blue;
+  background-image: url(../images/photo-1517956050595-8932d6d6b740.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .htxt {
+  height: 400px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.home .htxt h2 {
+  font-size: 60px;
+  font-family: stintCondensed;
+}
+.home .htxt hr {
+  width: 200px;
+  height: 6px;
+  color: #000;
+  border-color: #000;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.home .htxt p {
+  font-size: 26px;
+  font-family: stintCondensed;
+  margin-top: 20px;
+}
+.home footer {
+  height: 200px;
+  min-width: 100%;
+  background-color: #ddd;
+  margin-top: 60px;
+  position: relative;
+}
+.home footer p {
+  position: absolute;
+  font-family: stintCondensed;
+  font-size: 24px;
+  text-align: center;
+  top: 120px;
+  left: 780px;
+}
+.home footer .logo {
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  top: 80px;
+  left: 844px;
+}
+
+.meetus .banner2 {
+  height: 200px;
+  min-width: 100%;
+  background-color: bisque;
+  background-image: url(../images/3-www.africanwildlifephotos.co_.za_.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.meetus .meet {
+  font-size: 80px;
+  font-family: stintCondensed;
+  color: #ddd;
+  margin-top: -100px;
+}
+.meetus .meet_wrapper {
+  height: 880px;
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  padding: 60px 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.meetus .meet_wrapper .creator1 {
+  height: 280px;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.meetus .meet_wrapper .creator1 .pic1 {
+  height: 280px;
+  width: 200px;
+  background-color: palevioletred;
+  background-image: url(../images/photo-1612904370780-fbc1a5a4f46d.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.meetus .meet_wrapper .creator1 .txt1 {
+  height: 280px;
+  width: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: stintCondensed;
+  font-size: 20px;
+}
+.meetus .meet_wrapper .creator1 p {
+  margin-top: 40px;
+}
+.meetus .meet_wrapper .creator2 {
+  height: 280px;
+  width: 1000px;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.meetus .meet_wrapper .creator2 .pic2 {
+  height: 280px;
+  width: 200px;
+  background-image: url(../images/istockphoto-1036268190-170667a.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.meetus .meet_wrapper .creator2 .txt2 {
+  height: 280px;
+  width: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: stintCondensed;
+  font-size: 20px;
+}
+.meetus .meet_wrapper .creator2 p {
+  margin-top: 40px;
+}
+
+.gallery .banner3 {
+  height: 200px;
+  min-width: 100%;
+  background-color: bisque;
+  background-image: url(../images/photo-1588290957812-ae74d9e17288.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery .gal {
+  font-size: 80px;
+  font-family: stintCondensed;
+  color: #ddd;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+.gallery .wrapper1 {
+  position: relative;
+  height: 280px;
+  width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.gallery .wrapper1 .b1 {
+  height: 280px;
+  width: 200px;
+  background-color: blue;
+  background-image: url(../images/a3100798e0b2a048c3142d1c5efc2527.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery .wrapper1 .b2 {
+  height: 280px;
+  width: 200px;
+  background-color: blue;
+  background-image: url(../images/38f0c33aec59e77bd86e33840e8be979.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery .wrapper1 .b3 {
+  height: 280px;
+  width: 200px;
+  background-color: blue;
+  background-image: url(../images/painting-portrait-photographer-creative.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery .wrapper2 {
+  position: relative;
+  height: 280px;
+  width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 60px;
+}
+.gallery .wrapper2 .b4 {
+  height: 280px;
+  width: 200px;
+  background-color: blue;
+  background-image: url(../images/1b1c337db089bb834c7384fd7a3f5dff.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery .wrapper2 .b5 {
+  height: 280px;
+  width: 200px;
+  background-color: blue;
+  background-image: url(../images/stock-photo-68743261.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery .wrapper2 .b6 {
+  height: 280px;
+  width: 200px;
+  background-color: blue;
+  background-image: url(../images/art-artistic-artsy-beautiful.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact .banner4 {
+  height: 400px;
+  min-width: 100%;
+  background-color: bisque;
+  background-image: url(../images/psp-hero-banner-homepage-welcome.image.large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact .con {
+  font-size: 80px;
+  font-family: stintCondensed;
+  color: #ddd;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+.contact .wrapper4 {
+  position: relative;
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.contact .wrapper4 .map {
+  height: 500px;
+  width: 400px;
+  background-color: blue;
+  margin-top: 50px;
+  background-image: url(../images/Indianapolis-Road-Map-1265x1265.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact .wrapper4 .inputs {
+  height: 500px;
+  width: 500px;
+  margin-top: 50px;
+}
+.contact .wrapper4 .inputs .top-boxes {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.contact .wrapper4 .inputs .top-boxes .fName {
+  height: 40px;
+  width: 228px;
+}
+.contact .wrapper4 .inputs .top-boxes .lName {
+  height: 40px;
+  width: 228px;
+}
+.contact .wrapper4 .inputs .email {
+  height: 40px;
+  width: 460px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.contact .wrapper4 .inputs .message {
+  height: 200px;
+  width: 460px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.contact .wrapper4 .btn {
+  height: 40px;
+  width: 460px;
+  margin-left: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+  border-color: gray;
+  color: #ddd;
+}
+.contact .wrapper4 .btn p {
+  font-family: stintCondensed;
+  font-size: 30px;
+  color: #000;
+}

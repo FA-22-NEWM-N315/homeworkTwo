@@ -1,0 +1,1 @@
+export function getName(o){console.log(o)}export function getLastName(o){console.log(o)}

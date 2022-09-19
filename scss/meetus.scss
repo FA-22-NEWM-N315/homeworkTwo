@@ -1,0 +1,96 @@
+.meetus {
+    .banner2 {
+    height: 200px;
+    min-width: 100%;
+    background-color: bisque;
+    background-image: url(../images/3-www.africanwildlifephotos.co_.za_.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.meet {
+    font-size: 80px;
+    font-family: stintCondensed;
+    color: #ddd;
+    margin-top: -100px;
+}
+
+.meet_wrapper {
+    height: 880px;
+    width: 1000px;
+    // background-color: bisque;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    padding: 60px 0;
+    justify-content: space-evenly;
+
+    .creator1 {
+        height: 280px;
+        width: 1000px;
+        // background-color: blue;
+        display: flex;
+        justify-content: space-evenly;
+
+        .pic1 {
+            height: 280px;
+            width: 200px;
+            background-color: palevioletred;
+            background-image: url(../images/photo-1612904370780-fbc1a5a4f46d.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .txt1 {
+            height: 280px;
+            width: 400px;
+            // background-color: palegoldenrod;
+            align-items:center;
+            font-family: stintCondensed;
+            font-size: 20px;
+        }
+
+        p {
+            margin-top: 40px;
+        }
+    }
+
+    .creator2 {
+        height: 280px;
+        width: 1000px;
+        // background-color: blue;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-evenly;
+
+        .pic2 {
+            height: 280px;
+            width: 200px;
+            // background-color: palevioletred;
+            background-image: url(../images/istockphoto-1036268190-170667a.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .txt2 {
+            height: 280px;
+            width: 400px;
+            // background-color: palegoldenrod;
+            align-items:center;
+            font-family: stintCondensed;
+            font-size: 20px;
+        }
+
+        p {
+            margin-top: 40px;
+        }
+    }
+
+    
+
+}
+}
+

@@ -1,0 +1,9 @@
+.banner3 {
+  height: 200px;
+  min-width: 100%;
+  background-color: bisque;
+  background-image: url(../images/photo-1588290957812-ae74d9e17288.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

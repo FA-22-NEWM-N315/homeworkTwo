@@ -1,0 +1,112 @@
+.home {
+
+.banner {
+    height: 400px;
+    min-width: 100%;
+    // background-color: bisque;
+    background-image: url(../images/mg-3420.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+// this area is for the header 
+.header {
+    font-size: 80px;
+    font-family: stintCondensed;
+    color: #ddd;
+    margin-top: -100px;
+}
+
+.wrapper {
+    height: 280px;
+    width: 1000px;
+    // background-color: bisque;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+    .box1 {
+        height: 280px;
+        width: 200px;
+        background-color: blue;
+        background-image: url(../images/3242564.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .box2 {
+        height: 280px;
+        width: 200px;
+        background-color: blue;
+        background-image: url(../images/782837.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .box3 {
+        height: 280px;
+        width: 200px;
+        background-color: blue;
+        background-image: url(../images/photo-1517956050595-8932d6d6b740.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.htxt {
+    height: 400px;
+    width: 1000px;
+    // background-color: bisque;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    h2 {
+        font-size: 60px;
+        font-family: stintCondensed;
+    }
+
+    hr {
+        width: 200px;
+        height: 6px;
+        color: #000;
+        border-color: #000;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+    p {
+        font-size: 26px;
+        font-family: stintCondensed;
+        margin-top: 20px;
+    }
+}
+
+footer {
+    height: 200px;
+    min-width: 100%;
+    background-color: #ddd;
+    margin-top: 60px;
+    position: relative;
+
+    p {
+        position:absolute;
+        font-family: stintCondensed;
+        font-size: 24px;
+        text-align: center;
+        top: 120px;
+        left: 780px;
+    }
+
+    .logo {
+        position: absolute;
+        font-size: 30px;
+        text-align: center;
+        top: 80px;
+        left: 844px;
+    }
+}
+}
