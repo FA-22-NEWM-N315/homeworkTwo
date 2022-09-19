@@ -103,6 +103,5 @@ export function setCurrentPageContent(pageID) {
     $("#app").html(eval(contentName));
 }
 
-export {setCurrentPageContent};
 
 // creating a listener for the navigation links 

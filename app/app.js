@@ -1,7 +1,6 @@
 import * as MODEL from "./model.js";
 
 function initListeners() {
-
     $("nav a").click((e) => {
         e.preventDefault();
         let btnID = e.currentTarget.id;
@@ -11,6 +10,6 @@ function initListeners() {
 }
  
 $(document).ready(function () {
-    // MODEL.setCurrentPageContent("home");
+    MODEL.setCurrentPageContent("home");
 initListeners();
 });
